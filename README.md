@@ -1,4 +1,4 @@
-# Based on the au2019-unity-fbx-bim project from VIMAec
+# unity-fbx-bim project
 
 A Template Unity project for loading FBX files containing Revit models exported from 3ds Max based on the Unity 3D template with Unity 2020.x releases (The original project was developed for the excellent AU2019 class https://www.autodesk.com/autodesk-university/class/Revit-Real-Time-Importing-BIM-XR-3ds-Max-and-Unity-2019.)
 
