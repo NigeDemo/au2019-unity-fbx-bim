@@ -24,7 +24,7 @@ public class BimDataClicker : MonoBehaviour
     void Update()
     {
         // Check if the left mouse button is down without Ctrl or Alt.
-        //if (Input.GetMouseButtonDown(0) && !Input.GetKey(KeyCode.LeftAlt) && !Input.GetKey(KeyCode.LeftControl))
+        if (Input.GetMouseButtonDown(0)) // && !Input.GetKey(KeyCode.LeftAlt) && !Input.GetKey(KeyCode.LeftControl))
         {
             CheckRayCast();
         }
@@ -32,33 +32,47 @@ public class BimDataClicker : MonoBehaviour
 
     void CheckRayCast()
     {
-        if (_camera == null) return;
+
+        if (_camera == null)
+            return;
 
         RaycastHit hit;
         if (!Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit))
-            return;
-
-        var go = hit.collider.gameObject;
-
-        if (go == _lastSelected)
-            return;
-        _lastSelected = go;
-        if (go == null)
         {
             if (ObjectName != null)
                 ObjectName.text = "nothing selected";
             BimData = NoStrings;
             return;
         }
-        if (ObjectName != null)
-            ObjectName.text = go.name;
-        var bd = go.GetComponent<BimData>();
-        if (bd == null)
+
+        var go = hit.collider.gameObject;
+
+        if (go == _lastSelected)
+            return;
+        _lastSelected = go;
+
+        go.TryGetComponent<BimData>(out var bimdata);
+
+        if (bimdata == null)
         {
             BimData = NoStrings;
             return;
         }
 
-        BimData = bd.Items;
+        BimData = bimdata.Items;
+        ObjectName.text = go.name;
+
+        ParseBIMData(bimdata);
+    }
+
+    void ParseBIMData(BimData bimData)
+    {
+        Debug.Log($"ParseBIMData called with BimData of {bimData.Items.Length} length");
+
+        for(int i = 0; i < bimData.Items.Length-1; i++)
+        {
+            string[] item = bimData.Items[i].Split('=');
+            Debug.Log($"Data type: {item[0]} = {item[1]}");
+        }
     }
 }

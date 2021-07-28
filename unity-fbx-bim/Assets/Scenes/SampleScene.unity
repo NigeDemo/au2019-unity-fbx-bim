@@ -43,7 +43,7 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 11
+  serializedVersion: 12
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -96,8 +96,9 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_LightingSettings: {fileID: 2075809487}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -117,6 +118,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
@@ -258,8 +261,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce3e1a33e8dec164db3fece5430608fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ObjectName: {fileID: 0}
-  BimData: []
+  ObjectName: {fileID: 1622890090}
+  BimData:
+  - "id = 346567\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = CW 102-50-100p\r"
+  - "Document = PBR_Walls\r"
+  - "Phase Created = New Construction\r"
+  - "Base Offset = 0\r"
+  - "Unconnected Height = 3000\r"
+  - "Length = 13200\r"
+  - "Phase Demolished = None\r"
+  - "Family = Basic Wall\r"
+  - "Category = Walls\r"
+  - "Base Constraint = Level 1\r"
+  - "Family and Type = Basic Wall: CW 102-50-100p\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Base is Attached = False\r"
+  - "Enable Analytical Model = False\r"
+  - "Top Offset = 0\r"
+  - "Top Extension Distance = 0\r"
+  - "Cross-Section = Vertical\r"
+  - "Image = <None>\r"
+  - "Type Id = 408\r"
+  - "Related to Mass = False\r"
+  - "Location Line = Wall Centerline\r"
+  - "Volume = 10.45 m\xB3\r"
+  - "Area = 40 m\xB2\r"
+  - "Base Extension Distance = 0\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Type = CW 102-50-100p\r"
+  - "Top is Attached = False\r"
+  - "Structural = False\r"
+  - "Room Bounding = True\r"
+  - "Design Option = -1\r"
+  - "Heat Transfer Coefficient (U) = 0.8723 W/(m\xB2\xB7K)\r"
+  - "Absorptance = 0.7\r"
+  - "Type Image = <None>\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Width = 264\r"
+  - "Roughness = 3\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Wrapping at Ends = None\r"
+  - "Function = Exterior\r"
+  - "Structural Material = Concrete Masonry Units\r"
+  - "Coarse Scale Fill Pattern = Diagonal cross-hatch\r"
+  - "Thermal Mass = 28.78 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Thermal Resistance (R) = 1.1463 (m\xB2\xB7K)/W\r"
+  - 
 --- !u!114 &282840816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,6 +495,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!223 &687422229
 Canvas:
   m_ObjectHideFlags: 0
@@ -558,8 +610,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526980365}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1.25
   m_Range: 10
@@ -608,6 +661,7 @@ Light:
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0.17578125, y: 0.02734375, z: 0.05078125, w: -0.02734375}
   m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!4 &1526980367
@@ -676,6 +730,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -692,7 +748,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Name of Object
+  m_Text: Nothing Selected
 --- !u!222 &1622890091
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -701,3 +757,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622890088}
   m_CullTransparentMesh: 0
+--- !u!850595691 &2075809487
+LightingSettings:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Settings.lighting
+  serializedVersion: 3
+  m_GIWorkflowMode: 1
+  m_EnableBakedLightmaps: 1
+  m_EnableRealtimeLightmaps: 0
+  m_RealtimeEnvironmentLighting: 1
+  m_BounceScale: 1
+  m_AlbedoBoost: 1
+  m_IndirectOutputScale: 1
+  m_UsingShadowmask: 1
+  m_BakeBackend: 1
+  m_LightmapMaxSize: 512
+  m_BakeResolution: 16
+  m_Padding: 2
+  m_TextureCompression: 0
+  m_AO: 0
+  m_AOMaxDistance: 1
+  m_CompAOExponent: 1
+  m_CompAOExponentDirect: 0
+  m_ExtractAO: 0
+  m_MixedBakeMode: 2
+  m_LightmapsBakeMode: 1
+  m_FilterMode: 1
+  m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000, type: 0}
+  m_ExportTrainingData: 0
+  m_TrainingDataDestination: TrainingData
+  m_RealtimeResolution: 2
+  m_ForceWhiteAlbedo: 0
+  m_ForceUpdates: 0
+  m_FinalGather: 0
+  m_FinalGatherRayCount: 256
+  m_FinalGatherFiltering: 1
+  m_PVRCulling: 1
+  m_PVRSampling: 1
+  m_PVRDirectSampleCount: 32
+  m_PVRSampleCount: 512
+  m_PVREnvironmentSampleCount: 512
+  m_PVREnvironmentReferencePointCount: 2048
+  m_LightProbeSampleCountMultiplier: 4
+  m_PVRBounces: 2
+  m_PVRMinBounces: 2
+  m_PVREnvironmentMIS: 0
+  m_PVRFilteringMode: 2
+  m_PVRDenoiserTypeDirect: 0
+  m_PVRDenoiserTypeIndirect: 0
+  m_PVRDenoiserTypeAO: 0
+  m_PVRFilterTypeDirect: 0
+  m_PVRFilterTypeIndirect: 0
+  m_PVRFilterTypeAO: 0
+  m_PVRFilteringGaussRadiusDirect: 1
+  m_PVRFilteringGaussRadiusIndirect: 5
+  m_PVRFilteringGaussRadiusAO: 2
+  m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+  m_PVRFilteringAtrousPositionSigmaIndirect: 2
+  m_PVRFilteringAtrousPositionSigmaAO: 1
