@@ -1,6 +1,7 @@
 ﻿using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 /// <summary>
 /// A component which can be added to a Camera to let the user to click on an imported
@@ -8,14 +9,16 @@ using UnityEngine.UI;
 /// </summary>
 [ExecuteAlways]
 public class BimDataClicker : MonoBehaviour
-{   
+{
+    private static string[] NoStrings = new string[0];
+
     private Camera _camera;
     private GameObject _lastSelected;
- 
-    public Text ObjectName;
-    public string[] BimData = NoStrings;
+    private string[] BimData = NoStrings;
 
-    public static string[] NoStrings = new string[0];
+    [SerializeField]
+    private TextMeshProUGUI objectName;
+
     void Start()
     {
         _camera = GetComponent<Camera>();
@@ -37,34 +40,41 @@ public class BimDataClicker : MonoBehaviour
             return;
 
         RaycastHit hit;
-        if (!Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit))
+        if (!Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit)) // if the raycast from the mouse position hits nothing (Remember an exclamation mark means NOT in coding)
         {
-            if (ObjectName != null)
-                ObjectName.text = "nothing selected";
+            if (objectName != null)
+                objectName.text = "Nothing Selected";
             BimData = NoStrings;
             return;
         }
 
         var go = hit.collider.gameObject;
 
-        if (go == _lastSelected)
+        if (go == _lastSelected) // check to see if we have clicked on the same object again - if we have then return ...
             return;
-        _lastSelected = go;
 
-        go.TryGetComponent<BimData>(out var bimdata);
+        _lastSelected = go; // Assign the selected object to the lastSelected variable
 
-        if (bimdata == null)
+        go.TryGetComponent<BimData>(out var bimdata); // retrieve the BIMData component from the selected object - if one exists ...
+
+        if (bimdata == null) // if there is no BIM data then return ...
         {
             BimData = NoStrings;
             return;
         }
-
+        /*
+        If we get to this part of the function then we have clicked on an object that has a BIMData component which contains BIM data ...
+        */
         BimData = bimdata.Items;
-        ObjectName.text = go.name;
+        objectName.text = go.name;
 
         ParseBIMData(bimdata);
     }
 
+    /// <summary>
+    /// Parse the data from a BIMData component
+    /// </summary>
+    /// <param name="bimData"></param>
     void ParseBIMData(BimData bimData)
     {
         Debug.Log($"ParseBIMData called with BimData of {bimData.Items.Length} length");
@@ -72,7 +82,15 @@ public class BimDataClicker : MonoBehaviour
         for(int i = 0; i < bimData.Items.Length-1; i++)
         {
             string[] item = bimData.Items[i].Split('=');
-            Debug.Log($"Data type: {item[0]} = {item[1]}");
+            var property = item[0].Trim();
+            var val = item[1].Trim();
+            Debug.Log($"Data type: {property} = {val}");
+
+            // Example for extracting specific properties ...
+            if (property == "Area")
+                Debug.Log("FOUND THE AREA PROPERTY!");
+            if (property == "Family and Type")
+                Debug.Log("FOUND FAMILY & TYPE PROPERTY!");
         }
     }
 }
