@@ -39,7 +39,8 @@ public class BimDataClicker : MonoBehaviour
         if (_camera == null)
             return;
 
-        RaycastHit hit;
+        RaycastHit hit; // this variable will hold the object that was hit by the raycast
+
         if (!Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit)) // if the raycast from the mouse position hits nothing (Remember an exclamation mark means NOT in coding)
         {
             if (objectName != null)
@@ -48,7 +49,7 @@ public class BimDataClicker : MonoBehaviour
             return;
         }
 
-        var go = hit.collider.gameObject;
+        var go = hit.collider.gameObject; // we've selected sopmething so grab the game object from 'hit'
 
         if (go == _lastSelected) // check to see if we have clicked on the same object again - if we have then return ...
             return;
@@ -79,6 +80,7 @@ public class BimDataClicker : MonoBehaviour
     {
         Debug.Log($"ParseBIMData called with BimData of {bimData.Items.Length} length");
 
+        // Loop through all the BIM properties / data entries 
         for(int i = 0; i < bimData.Items.Length-1; i++)
         {
             string[] item = bimData.Items[i].Split('=');
