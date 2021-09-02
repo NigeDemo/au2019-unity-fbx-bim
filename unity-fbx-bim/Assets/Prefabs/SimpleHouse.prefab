@@ -1,0 +1,4749 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &364563520161234397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7810680360248479423}
+  - component: {fileID: 6630153327672114439}
+  - component: {fileID: 4289092215695835687}
+  - component: {fileID: 1659847195825298056}
+  - component: {fileID: 2606565883992355242}
+  m_Layer: 0
+  m_Name: Basic Roof Warm Roof - Timber [351592]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7810680360248479423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364563520161234397}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.283094, y: 4.5230503, z: 0.48554143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6630153327672114439
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364563520161234397}
+  m_Mesh: {fileID: -6713528244049620142, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &4289092215695835687
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364563520161234397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e59de548589dd044f9b0de15abc349d6, type: 2}
+  - {fileID: 2100000, guid: d30958c4fc81b0e449fa7d79e52f266c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1659847195825298056
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364563520161234397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6713528244049620142, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &2606565883992355242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364563520161234397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351592\r"
+  - "Category Name = Roofs\r"
+  - "Family Name = Basic Roof\r"
+  - "Type Name = Warm Roof - Timber\r"
+  - "Document = PBR_Walls\r"
+  - "Volume = 50.04 m\xB3\r"
+  - "Thickness = 338\r"
+  - "Area = 148 m\xB2\r"
+  - "Phase Created = New Construction\r"
+  - "Type = Warm Roof - Timber\r"
+  - "Cutoff Offset = 0\r"
+  - "Slope = 30.00\xB0\r"
+  - "Family = Basic Roof\r"
+  - "Related to Mass = False\r"
+  - "Cutoff Level = None\r"
+  - "Category = Roofs\r"
+  - "Maximum Ridge Height = 6046\r"
+  - "Room Bounding = True\r"
+  - "Image = <None>\r"
+  - "Type Id = 5173\r"
+  - "Phase Demolished = None\r"
+  - "Family and Type = Basic Roof: Warm Roof - Timber\r"
+  - "Design Option = -1\r"
+  - "Base Offset From Level = 0\r"
+  - "Fascia Depth = 0\r"
+  - "Rafter Cut = Plumb Cut\r"
+  - "Base Level = Level 2\r"
+  - "Default Thickness = 338\r"
+  - "Absorptance = 0.7\r"
+  - "Thermal Mass = 5.56 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Heat Transfer Coefficient (U) = 0.1042 W/(m\xB2\xB7K)\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Type Image = <None>\r"
+  - "Roughness = 3\r"
+  - "Thermal Resistance (R) = 9.5960 (m\xB2\xB7K)/W\r"
+  - 
+--- !u!1 &421833179193530244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049751743992007998}
+  m_Layer: 0
+  m_Name: SimpleHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1049751743992007998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421833179193530244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5653425085509062050}
+  - {fileID: 7810680360248479423}
+  - {fileID: 7146948136111712912}
+  - {fileID: 8598627682452474055}
+  - {fileID: 3935856877761497986}
+  - {fileID: 9099664446167575356}
+  - {fileID: 4356703352801442081}
+  - {fileID: 2816099011206454209}
+  - {fileID: 7442712380122605163}
+  - {fileID: 4256361595022215298}
+  - {fileID: 3899951547921964645}
+  - {fileID: 7350026060761916614}
+  - {fileID: 8054843649957527386}
+  - {fileID: 7379503203652770538}
+  - {fileID: 6172825102241063734}
+  - {fileID: 5329224952432749773}
+  - {fileID: 990810924172944610}
+  - {fileID: 7286086085109754671}
+  - {fileID: 72468590162880949}
+  - {fileID: 4398608777408091641}
+  - {fileID: 2385461036015318076}
+  - {fileID: 4451436922053934035}
+  - {fileID: 9193888686652188053}
+  - {fileID: 593393522489054774}
+  - {fileID: 8786381638417192537}
+  - {fileID: 3644421754555501755}
+  - {fileID: 6788815659490422364}
+  - {fileID: 4638253937774485275}
+  - {fileID: 3295935984046885982}
+  - {fileID: 3842339220778902142}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &547166591440864534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8786381638417192537}
+  - component: {fileID: 8495949640605819801}
+  - component: {fileID: 2001225119178826022}
+  - component: {fileID: 8781874539174931542}
+  - component: {fileID: 1599013604369205201}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [351142]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8786381638417192537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547166591440864534}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -2.3334923, y: 1.515, z: -3.4824586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8495949640605819801
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547166591440864534}
+  m_Mesh: {fileID: 4452541150682077773, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &2001225119178826022
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547166591440864534}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8781874539174931542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547166591440864534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4452541150682077773, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &1599013604369205201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547166591440864534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351142\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Image = <None>\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Phase Created = New Construction\r"
+  - "Head Height = 2430\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Type Id = 33083\r"
+  - "Design Option = -1\r"
+  - "Category = Windows\r"
+  - "Mark = 7\r"
+  - "Area = 4 m\xB2\r"
+  - "Sill Height = 600\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Host Id = 346567\r"
+  - "Family = M_Fixed\r"
+  - "Level = Level 1\r"
+  - "Phase Demolished = None\r"
+  - "Sash = Sash\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Height = 1830\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Cost = 0.00\r"
+  - "Width = 915\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Rough Height = 0\r"
+  - "Wall Closure = By host\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Frame Interior Material = Sash\r"
+  - "Glass Pane Material = Glass\r"
+  - "Default Sill Height = 305\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Window Inset = 19\r"
+  - "Type Image = <None>\r"
+  - "Type Mark = 18\r"
+  - "Rough Width = 0\r"
+  - 
+--- !u!1 &1030599149957525954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7146948136111712912}
+  - component: {fileID: 1811297393632774842}
+  - component: {fileID: 8168199276620056643}
+  - component: {fileID: 7442837398895259353}
+  - component: {fileID: 4158590736537632912}
+  m_Layer: 0
+  m_Name: Basic Wall CW 102-50-100p [346567]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7146948136111712912
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030599149957525954}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.4150941, y: 1.7205478, z: -3.4824586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1811297393632774842
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030599149957525954}
+  m_Mesh: {fileID: 7018870139821600967, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &8168199276620056643
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030599149957525954}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 8e6353c16f53d6a40b19a2d11b440282, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7442837398895259353
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030599149957525954}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7018870139821600967, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &4158590736537632912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030599149957525954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346567\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = CW 102-50-100p\r"
+  - "Document = PBR_Walls\r"
+  - "Phase Created = New Construction\r"
+  - "Base Offset = 0\r"
+  - "Unconnected Height = 3000\r"
+  - "Length = 13200\r"
+  - "Phase Demolished = None\r"
+  - "Family = Basic Wall\r"
+  - "Category = Walls\r"
+  - "Base Constraint = Level 1\r"
+  - "Family and Type = Basic Wall: CW 102-50-100p\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Base is Attached = False\r"
+  - "Enable Analytical Model = False\r"
+  - "Top Offset = 0\r"
+  - "Top Extension Distance = 0\r"
+  - "Cross-Section = Vertical\r"
+  - "Image = <None>\r"
+  - "Type Id = 408\r"
+  - "Related to Mass = False\r"
+  - "Location Line = Wall Centerline\r"
+  - "Volume = 10.84 m\xB3\r"
+  - "Area = 42 m\xB2\r"
+  - "Base Extension Distance = 0\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Type = CW 102-50-100p\r"
+  - "Top is Attached = True\r"
+  - "Structural = False\r"
+  - "Room Bounding = True\r"
+  - "Design Option = -1\r"
+  - "Heat Transfer Coefficient (U) = 0.8723 W/(m\xB2\xB7K)\r"
+  - "Absorptance = 0.7\r"
+  - "Type Image = <None>\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Width = 264\r"
+  - "Roughness = 3\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Wrapping at Ends = None\r"
+  - "Function = Exterior\r"
+  - "Structural Material = Concrete Masonry Units\r"
+  - "Coarse Scale Fill Pattern = Diagonal cross-hatch\r"
+  - "Thermal Mass = 28.78 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Thermal Resistance (R) = 1.1463 (m\xB2\xB7K)/W\r"
+  - 
+--- !u!1 &1504643832771710671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990810924172944610}
+  - component: {fileID: 2781840085702320357}
+  - component: {fileID: 8629321133266195268}
+  - component: {fileID: 5536253942338527452}
+  - component: {fileID: 2139077826766734328}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [354442]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &990810924172944610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504643832771710671}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -3.9409904, y: 2.7, z: -2.0504584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2781840085702320357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504643832771710671}
+  m_Mesh: {fileID: 6642584166555005814, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &8629321133266195268
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504643832771710671}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9528821af05d0524e800114f92ab4d02, type: 2}
+  - {fileID: 2100000, guid: b8adf76abdcf5af4fb01155e9ed3f81a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5536253942338527452
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504643832771710671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6642584166555005814, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &2139077826766734328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504643832771710671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 354442\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Host Id = 351456\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Category = Lighting Fixtures\r"
+  - "Mark = 5\r"
+  - "Level = Level 1\r"
+  - "Phase Created = New Construction\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Phase Demolished = None\r"
+  - "Image = <None>\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Design Option = -1\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Area = 40 m\xB2\r"
+  - "Type Id = 352292\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Type Image = <None>\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Depth = 200\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Wattage Comments = 60\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Cost = 0.00\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Keynote = V\r"
+  - "Wattage = 60 W\r"
+  - "Illuminance = 259 lx\r"
+  - "Default Elevation = 0\r"
+  - "Diameter = 150\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Lamp = A-19\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Apparent Load = 0 VA\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - 
+--- !u!1 &1960760839858989819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7379503203652770538}
+  - component: {fileID: 7015715169237352219}
+  - component: {fileID: 1340740334900069706}
+  - component: {fileID: 3540983309163632162}
+  - component: {fileID: 5202294768697253437}
+  m_Layer: 0
+  m_Name: Floor Standard Timber-Wood Finish [350076]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7379503203652770538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960760839858989819}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.283094, y: -0.120500006, z: 0.61754155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7015715169237352219
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960760839858989819}
+  m_Mesh: {fileID: 7672905916017156769, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &1340740334900069706
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960760839858989819}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e59de548589dd044f9b0de15abc349d6, type: 2}
+  - {fileID: 2100000, guid: b7becdd7f2bb93e4ba69f5055503fae0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3540983309163632162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960760839858989819}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7672905916017156769, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &5202294768697253437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960760839858989819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350076\r"
+  - "Category Name = Floors\r"
+  - "Family Name = Floor\r"
+  - "Type Name = Standard Timber-Wood Finish\r"
+  - "Document = PBR_Walls\r"
+  - "Structural = False\r"
+  - "Enable Analytical Model = False\r"
+  - "Elevation at Bottom = -241\r"
+  - "Area = 103 m\xB2\r"
+  - "Image = <None>\r"
+  - "Perimeter = 41840\r"
+  - "Family = Floor\r"
+  - "Height Offset From Level = 0\r"
+  - "Room Bounding = True\r"
+  - "Slope = 0.00\xB0\r"
+  - "Category = Floors\r"
+  - "Design Option = -1\r"
+  - "Elevation at Top = 0\r"
+  - "Related to Mass = False\r"
+  - "Family and Type = Floor: Standard Timber-Wood Finish\r"
+  - "Level = Level 1\r"
+  - "Phase Demolished = None\r"
+  - "Volume = 24.86 m\xB3\r"
+  - "Thickness = 241\r"
+  - "Type = Standard Timber-Wood Finish\r"
+  - "Type Id = 784\r"
+  - "Phase Created = New Construction\r"
+  - "Structural Material = Structure, Timber Joist/Rafter Layer\r"
+  - "Heat Transfer Coefficient (U) = 0.1206 W/(m\xB2\xB7K)\r"
+  - "Function = Interior\r"
+  - "Default Thickness = 241\r"
+  - "Type Image = <None>\r"
+  - "Roughness = 3\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Thermal Mass = 4.80 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Absorptance = 0.7\r"
+  - "Thermal Resistance (R) = 8.2889 (m\xB2\xB7K)/W\r"
+  - 
+--- !u!1 &2112975283578183839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3842339220778902142}
+  - component: {fileID: 2521605384330953219}
+  - component: {fileID: 5282104370948385564}
+  - component: {fileID: 9200958503523394153}
+  - component: {fileID: 948621841083799793}
+  m_Layer: 0
+  m_Name: M_Single-Flush 0864 x 2032mm [351357]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3842339220778902142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112975283578183839}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.1547824, y: 1.054, z: -0.8719293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2521605384330953219
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112975283578183839}
+  m_Mesh: {fileID: -8989319363814579068, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &5282104370948385564
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112975283578183839}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdcadba65bea1654ab551e0172b177e1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &9200958503523394153
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112975283578183839}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8989319363814579068, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &948621841083799793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112975283578183839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351357\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Phase Demolished = None\r"
+  - "Head Height = 2032\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Image = <None>\r"
+  - "Category = Doors\r"
+  - "Design Option = -1\r"
+  - "Area = 3 m\xB2\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 4\r"
+  - "Level = Level 1\r"
+  - "Host Id = 350467\r"
+  - "Family = M_Single-Flush\r"
+  - "Type Id = 49492\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Sill Height = 0\r"
+  - "Cost = 0.00\r"
+  - "Trim Projection Int = 25\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Thickness = 51\r"
+  - "OmniClass Title = Doors\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Analytic Construction = Metal\r"
+  - "Rough Height = 0\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Height = 2032\r"
+  - "Type Image = <None>\r"
+  - "Trim Width = 76\r"
+  - "Trim Projection Ext = 25\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Width = 864\r"
+  - "Function = Interior\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Type Mark = 32\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Rough Width = 0\r"
+  - "Wall Closure = By host\r"
+  - "Door Material = Door - Panel\r"
+  - 
+--- !u!1 &2286608674803545917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6172825102241063734}
+  - component: {fileID: 8366815182579672224}
+  - component: {fileID: 5467474087213133661}
+  - component: {fileID: 7146293958642863157}
+  - component: {fileID: 4043471172214508372}
+  m_Layer: 0
+  m_Name: Gutter Gutter [351766]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6172825102241063734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286608674803545917}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.283094, y: 3.0928328, z: 0.48554173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8366815182579672224
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286608674803545917}
+  m_Mesh: {fileID: -5814064755113877368, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &5467474087213133661
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286608674803545917}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9208c1ddf79f92444b45c1e34de4cb5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7146293958642863157
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286608674803545917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5814064755113877368, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &4043471172214508372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2286608674803545917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351766\r"
+  - "Category Name = Gutters\r"
+  - "Family Name = Gutter\r"
+  - "Type Name = Gutter\r"
+  - "Document = PBR_Walls\r"
+  - "Length = 27948\r"
+  - "Phase Demolished = None\r"
+  - "Category = Gutters\r"
+  - "Angle = 0.00\xB0\r"
+  - "Type Id = 19886\r"
+  - "Family and Type = Gutter: Gutter\r"
+  - "Family = Gutter\r"
+  - "Type = Gutter\r"
+  - "Image = <None>\r"
+  - "Horizontal Profile Offset = 0\r"
+  - "Vertical Profile Offset = 0\r"
+  - "Phase Created = New Construction\r"
+  - "Design Option = -1\r"
+  - "Material = <By Category>\r"
+  - "Cost = 0.00\r"
+  - "Type Image = <None>\r"
+  - "Profile = M_Gutter - Bevel : 125 x 125mm\r"
+  - 
+--- !u!1 &2475381015537353589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6788815659490422364}
+  - component: {fileID: 3925529348745883363}
+  - component: {fileID: 5457176960131675236}
+  - component: {fileID: 911874634869053047}
+  - component: {fileID: 6974000835295029037}
+  m_Layer: 0
+  m_Name: M_Single-Flush 0762 x 2032mm [351376]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6788815659490422364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475381015537353589}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: 4.8850327, y: 1.054, z: -2.1336238}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3925529348745883363
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475381015537353589}
+  m_Mesh: {fileID: 7690825631344840616, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &5457176960131675236
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475381015537353589}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdcadba65bea1654ab551e0172b177e1, type: 2}
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &911874634869053047
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475381015537353589}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7690825631344840616, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &6974000835295029037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2475381015537353589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351376\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0762 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Category = Doors\r"
+  - "Mark = 5\r"
+  - "Design Option = -1\r"
+  - "Family and Type = M_Single-Flush: 0762 x 2032mm\r"
+  - "Phase Created = New Construction\r"
+  - "Level = Level 1\r"
+  - "Type Id = 49488\r"
+  - "Phase Demolished = None\r"
+  - "Volume = 0.10 m\xB3\r"
+  - "Host Id = 350711\r"
+  - "Image = <None>\r"
+  - "Area = 3 m\xB2\r"
+  - "Head Height = 2032\r"
+  - "Type = 0762 x 2032mm\r"
+  - "Sill Height = 0\r"
+  - "Family = M_Single-Flush\r"
+  - "Type Image = <None>\r"
+  - "Rough Width = 0\r"
+  - "Trim Projection Ext = 25\r"
+  - "Type Mark = 28\r"
+  - "OmniClass Title = Doors\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Thickness = 51\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Width = 762\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Cost = 0.00\r"
+  - "Height = 2032\r"
+  - "Function = Interior\r"
+  - "Rough Height = 0\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Trim Width = 76\r"
+  - "Wall Closure = By host\r"
+  - "Door Material = Door - Panel\r"
+  - "Analytic Construction = Metal\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Trim Projection Int = 25\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - 
+--- !u!1 &3251855256122423793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2385461036015318076}
+  - component: {fileID: 3606760912857764999}
+  - component: {fileID: 1105722335332733297}
+  - component: {fileID: 896413375127278412}
+  - component: {fileID: 8675339630972911833}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [346657]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2385461036015318076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251855256122423793}
+  m_LocalRotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: 4.0894904, y: 1.515, z: 4.7175417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3606760912857764999
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251855256122423793}
+  m_Mesh: {fileID: -7216002632369982333, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &1105722335332733297
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251855256122423793}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &896413375127278412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251855256122423793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7216002632369982333, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &8675339630972911833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3251855256122423793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346657\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Family = M_Fixed\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 1\r"
+  - "Image = <None>\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Level = Level 1\r"
+  - "Category = Windows\r"
+  - "Head Height = 2430\r"
+  - "Type Id = 33083\r"
+  - "Phase Demolished = None\r"
+  - "Sill Height = 600\r"
+  - "Host Id = 346569\r"
+  - "Area = 4 m\xB2\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Design Option = -1\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Wall Closure = By host\r"
+  - "Type Mark = 18\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Default Sill Height = 305\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Type Image = <None>\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Height = 1830\r"
+  - "Window Inset = 19\r"
+  - "Cost = 0.00\r"
+  - "Width = 915\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Frame Interior Material = Sash\r"
+  - "Rough Width = 0\r"
+  - "Sash = Sash\r"
+  - "Glass Pane Material = Glass\r"
+  - "Rough Height = 0\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Construction Type Id = GSP4R\r"
+  - 
+--- !u!1 &3370109820583999567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7350026060761916614}
+  - component: {fileID: 5944089878305873381}
+  - component: {fileID: 1777810706180804580}
+  - component: {fileID: 8044671294295835953}
+  - component: {fileID: 8258651973415478844}
+  m_Layer: 0
+  m_Name: Doors_ExtSgl_2 1010x2110mm [346712]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7350026060761916614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370109820583999567}
+  m_LocalRotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: 1.2825942, y: 1.055, z: 4.7800417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5944089878305873381
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370109820583999567}
+  m_Mesh: {fileID: -8648466887452586834, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &1777810706180804580
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370109820583999567}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e5d9ad9af3acd1c4fb1f424846967702, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8044671294295835953
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370109820583999567}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8648466887452586834, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &8258651973415478844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370109820583999567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346712\r"
+  - "Category Name = Doors\r"
+  - "Family Name = Doors_ExtSgl_2\r"
+  - "Type Name = 1010x2110mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Design Option = -1\r"
+  - "Type Id = 349869\r"
+  - "Volume = 0.10 m\xB3\r"
+  - "Type = 1010x2110mm\r"
+  - "Phase Demolished = None\r"
+  - "Image = <None>\r"
+  - "Category = Doors\r"
+  - "Level = Level 1\r"
+  - "Phase Created = New Construction\r"
+  - "Family and Type = Doors_ExtSgl_2: 1010x2110mm\r"
+  - "Family = Doors_ExtSgl_2\r"
+  - "Sill Height = 0\r"
+  - "Head Height = 2110\r"
+  - "Mark = 1\r"
+  - "Area = 3 m\xB2\r"
+  - "Host Id = 346569\r"
+  - "Construction Type Id = SGL\r"
+  - "Cavity Closer Offset from Ext = 103\r"
+  - "Vis - Cavity Closers = True\r"
+  - "Door Panel Width = 907\r"
+  - "Glazing Thickness = 24\r"
+  - "Handle X Distance = 75\r"
+  - "Type Comments = External Single\r"
+  - "Stile Bottom Rail = 175\r"
+  - "Cavity Closer Width = 50\r"
+  - "Type Image = <None>\r"
+  - "Cill Projection = 30\r"
+  - "Structural Tolerance = 7\r"
+  - "Material Glass = Door - Glazing\r"
+  - "Tolerance = 3\r"
+  - "Wall Closure = By host\r"
+  - "Thermal Resistance (R) = 0.1798 (m\xB2\xB7K)/W\r"
+  - "Vis - Ironmongery = True\r"
+  - "Stile Hanging = 125\r"
+  - "Cill Extension = 25\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "FrameOffset - External = 25\r"
+  - "Function = Exterior\r"
+  - "Door Panel Thickness = 44\r"
+  - "Height = 2110\r"
+  - "Keynote = L20\r"
+  - "Cill Thickness = 55\r"
+  - "Thickness = 44\r"
+  - "Stile Top of Lock rail = 1000\r"
+  - "FrameDepth = 89\r"
+  - "Undercut = 4\r"
+  - "Wrap Layers (Ext) from Ext = 103\r"
+  - "Width = 1010\r"
+  - "Solar Heat Gain Coefficient = 0.86\r"
+  - "FrameWidth = 42\r"
+  - "Rough Width = 1010\r"
+  - "Stile Top Rail = 150\r"
+  - "O/A Frame Width = 64\r"
+  - "Cavity Closer Depth = 85\r"
+  - "Material Ironmongery = Door - Handle\r"
+  - "Heat Transfer Coefficient (U) = 5.5617 W/(m\xB2\xB7K)\r"
+  - "Stile Lock Rail = 175\r"
+  - "Door Panel Height = 2000\r"
+  - "Type Mark = 41\r"
+  - "Rough Height = 2110\r"
+  - "Material Door = Door - Panel\r"
+  - "Cost = 0.00\r"
+  - "Handle Z Distance = 1000\r"
+  - "Wrap Layers (Int) from Ext = 178\r"
+  - "Operation = SingleSwingRight\r"
+  - "Material Frame = Door - Frame/Mullion\r"
+  - "Analytic Construction = Large single-glazed windows\r"
+  - "Stile Muntin Rail = 125\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Stile Shutting = 125\r"
+  - 
+--- !u!1 &3386755850772001682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8054843649957527386}
+  - component: {fileID: 5540407804623836593}
+  - component: {fileID: 4281157949426251280}
+  - component: {fileID: 8232989222713913645}
+  - component: {fileID: 8194760825857282585}
+  m_Layer: 0
+  m_Name: Fascia Fascia [351764]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8054843649957527386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386755850772001682}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.283094, y: 4.6006947, z: 0.48554143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5540407804623836593
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386755850772001682}
+  m_Mesh: {fileID: -5379446638112775544, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &4281157949426251280
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386755850772001682}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9208c1ddf79f92444b45c1e34de4cb5c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8232989222713913645
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386755850772001682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5379446638112775544, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &8194760825857282585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3386755850772001682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351764\r"
+  - "Category Name = Fascias\r"
+  - "Family Name = Fascia\r"
+  - "Type Name = Fascia\r"
+  - "Document = PBR_Walls\r"
+  - "Phase Demolished = None\r"
+  - "Image = <None>\r"
+  - "Design Option = -1\r"
+  - "Family and Type = Fascia: Fascia\r"
+  - "Type Id = 19885\r"
+  - "Phase Created = New Construction\r"
+  - "Horizontal Profile Offset = 0\r"
+  - "Angle = 0.00\xB0\r"
+  - "Category = Fascias\r"
+  - "Length = 49118\r"
+  - "Family = Fascia\r"
+  - "Vertical Profile Offset = 0\r"
+  - "Type = Fascia\r"
+  - "Profile = M_Fascia-Flat : 19 x 235mm\r"
+  - "Type Image = <None>\r"
+  - "Material = <By Category>\r"
+  - "Cost = 0.00\r"
+  - 
+--- !u!1 &4032532628111714051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5653425085509062050}
+  - component: {fileID: 8981607145211088471}
+  - component: {fileID: 6761804964764331042}
+  - component: {fileID: 6933006558206253362}
+  - component: {fileID: 2539113102299625953}
+  m_Layer: 0
+  m_Name: Basic Ceiling Generic [351456]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
+--- !u!4 &5653425085509062050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032532628111714051}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.2830944, y: 2.6000001, z: 0.61754155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8981607145211088471
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032532628111714051}
+  m_Mesh: {fileID: -6541409211863896450, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &6761804964764331042
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032532628111714051}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6933006558206253362
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032532628111714051}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6541409211863896450, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &2539113102299625953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4032532628111714051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351456\r"
+  - "Category Name = Ceilings\r"
+  - "Family Name = Basic Ceiling\r"
+  - "Type Name = Generic\r"
+  - "Document = PBR_Walls\r"
+  - "Slope = 0.00\xB0\r"
+  - "Phase Created = New Construction\r"
+  - "Room Bounding = True\r"
+  - "Category = Ceilings\r"
+  - "Design Option = -1\r"
+  - "Family and Type = Basic Ceiling: Generic\r"
+  - "Height Offset From Level = 2600\r"
+  - "Level = Level 1\r"
+  - "Type = Generic\r"
+  - "Perimeter = 41744\r"
+  - "Family = Basic Ceiling\r"
+  - "Type Id = 757\r"
+  - "Area = 103 m\xB2\r"
+  - "Image = <None>\r"
+  - "Phase Demolished = None\r"
+  - "Heat Transfer Coefficient (U) = 0.0000 W/(m\xB2\xB7K)\r"
+  - "Thermal Mass = 0.00 kJ/K\r"
+  - "Thermal Resistance (R) = 0.0000 (m\xB2\xB7K)/W\r"
+  - "Absorptance = 0.7\r"
+  - "Material = Gypsum Wall Board\r"
+  - "Cost = 0.00\r"
+  - "Roughness = 3\r"
+  - "Type Image = <None>\r"
+  - 
+--- !u!1 &4096608404778567693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72468590162880949}
+  - component: {fileID: 7224390602070085230}
+  - component: {fileID: 7155677665887130829}
+  - component: {fileID: 2806217253438378207}
+  - component: {fileID: 6131449334194432527}
+  m_Layer: 0
+  m_Name: M_Fixed 0406 x 1830mm [350803]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &72468590162880949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096608404778567693}
+  m_LocalRotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: -4.382153, y: 1.515, z: 4.7175417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7224390602070085230
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096608404778567693}
+  m_Mesh: {fileID: 4188372628358650033, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &7155677665887130829
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096608404778567693}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2806217253438378207
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096608404778567693}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4188372628358650033, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &6131449334194432527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4096608404778567693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350803\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0406 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Area = 2 m\xB2\r"
+  - "Volume = 0.05 m\xB3\r"
+  - "Level = Level 1\r"
+  - "Head Height = 2430\r"
+  - "Family = M_Fixed\r"
+  - "Category = Windows\r"
+  - "Phase Created = New Construction\r"
+  - "Host Id = 346569\r"
+  - "Design Option = -1\r"
+  - "Type Id = 33079\r"
+  - "Family and Type = M_Fixed: 0406 x 1830mm\r"
+  - "Phase Demolished = None\r"
+  - "Sill Height = 600\r"
+  - "Image = <None>\r"
+  - "Type = 0406 x 1830mm\r"
+  - "Mark = 3\r"
+  - "Frame Interior Material = Sash\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Type Mark = 16\r"
+  - "Glass Pane Material = Glass\r"
+  - "Type Image = <None>\r"
+  - "Rough Width = 0\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Width = 406\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Wall Closure = By host\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Cost = 0.00\r"
+  - "Height = 1830\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Rough Height = 0\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Window Inset = 19\r"
+  - "Default Sill Height = 305\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Sash = Sash\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - 
+--- !u!1 &4114578515818430820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 593393522489054774}
+  - component: {fileID: 6857399227688763885}
+  - component: {fileID: 8255755047453832260}
+  - component: {fileID: 4849331477518494876}
+  - component: {fileID: 3157100562029847301}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [351123]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &593393522489054774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114578515818430820}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 2.2425866, y: 1.515, z: -3.4824586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6857399227688763885
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114578515818430820}
+  m_Mesh: {fileID: 5129084434510150754, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &8255755047453832260
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114578515818430820}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4849331477518494876
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114578515818430820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5129084434510150754, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &3157100562029847301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4114578515818430820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351123\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Family = M_Fixed\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Area = 4 m\xB2\r"
+  - "Image = <None>\r"
+  - "Head Height = 2430\r"
+  - "Sill Height = 600\r"
+  - "Type Id = 33083\r"
+  - "Level = Level 1\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Category = Windows\r"
+  - "Design Option = -1\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Phase Created = New Construction\r"
+  - "Host Id = 346567\r"
+  - "Phase Demolished = None\r"
+  - "Mark = 6\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Type Mark = 18\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Width = 915\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Wall Closure = By host\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Type Image = <None>\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Cost = 0.00\r"
+  - "Default Sill Height = 305\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Rough Width = 0\r"
+  - "Height = 1830\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Window Inset = 19\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Rough Height = 0\r"
+  - "Sash = Sash\r"
+  - "Glass Pane Material = Glass\r"
+  - "Frame Interior Material = Sash\r"
+  - 
+--- !u!1 &4165655433503785100
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4398608777408091641}
+  - component: {fileID: 1639502916885214211}
+  - component: {fileID: 9049539276839872472}
+  - component: {fileID: 6226379245923316237}
+  - component: {fileID: 9026468896180246156}
+  m_Layer: 0
+  m_Name: M_Fixed 0406 x 1830mm [351003]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4398608777408091641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165655433503785100}
+  m_LocalRotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: 6.7499905, y: 1.515, z: 4.7175417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1639502916885214211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165655433503785100}
+  m_Mesh: {fileID: -5212751794298164625, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &9049539276839872472
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165655433503785100}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6226379245923316237
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165655433503785100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5212751794298164625, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &9026468896180246156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4165655433503785100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351003\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0406 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Level = Level 1\r"
+  - "Host Id = 346569\r"
+  - "Mark = 4\r"
+  - "Phase Demolished = None\r"
+  - "Design Option = -1\r"
+  - "Family and Type = M_Fixed: 0406 x 1830mm\r"
+  - "Category = Windows\r"
+  - "Image = <None>\r"
+  - "Head Height = 2430\r"
+  - "Type = 0406 x 1830mm\r"
+  - "Type Id = 33079\r"
+  - "Area = 2 m\xB2\r"
+  - "Family = M_Fixed\r"
+  - "Sill Height = 600\r"
+  - "Volume = 0.05 m\xB3\r"
+  - "Phase Created = New Construction\r"
+  - "Wall Closure = By host\r"
+  - "Width = 406\r"
+  - "Window Inset = 19\r"
+  - "Type Image = <None>\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Rough Height = 0\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Type Mark = 16\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Sash = Sash\r"
+  - "Frame Interior Material = Sash\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Default Sill Height = 305\r"
+  - "Height = 1830\r"
+  - "Glass Pane Material = Glass\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Rough Width = 0\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Cost = 0.00\r"
+  - 
+--- !u!1 &4424719665463711811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9099664446167575356}
+  - component: {fileID: 3269450720209747733}
+  - component: {fileID: 9109135274526698532}
+  - component: {fileID: 142804216485174364}
+  - component: {fileID: 7835203555437968290}
+  m_Layer: 0
+  m_Name: Basic Wall CW 102-50-100p PBR [346569]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &9099664446167575356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424719665463711811}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.1510943, y: 1.6443375, z: 4.7175417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3269450720209747733
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424719665463711811}
+  m_Mesh: {fileID: -6904274290168318101, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &9109135274526698532
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424719665463711811}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 8e6353c16f53d6a40b19a2d11b440282, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &142804216485174364
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424719665463711811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6904274290168318101, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &7835203555437968290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424719665463711811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346569\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = CW 102-50-100p PBR\r"
+  - "Document = PBR_Walls\r"
+  - "Base Constraint = Level 1\r"
+  - "Family = Basic Wall\r"
+  - "Area = 36 m\xB2\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Length = 13200\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Structural = False\r"
+  - "Base Offset = 0\r"
+  - "Phase Demolished = None\r"
+  - "Cross-Section = Vertical\r"
+  - "Location Line = Wall Centerline\r"
+  - "Image = <None>\r"
+  - "Family and Type = Basic Wall: CW 102-50-100p PBR\r"
+  - "Type Id = 346880\r"
+  - "Category = Walls\r"
+  - "Top Extension Distance = 0\r"
+  - "Base Extension Distance = 0\r"
+  - "Top is Attached = True\r"
+  - "Top Offset = 0\r"
+  - "Related to Mass = False\r"
+  - "Enable Analytical Model = False\r"
+  - "Base is Attached = False\r"
+  - "Design Option = -1\r"
+  - "Type = CW 102-50-100p PBR\r"
+  - "Phase Created = New Construction\r"
+  - "Volume = 9.36 m\xB3\r"
+  - "Unconnected Height = 3000\r"
+  - "Room Bounding = True\r"
+  - "Structural Material = Concrete Masonry Units\r"
+  - "Function = Exterior\r"
+  - "Wrapping at Ends = None\r"
+  - "Width = 264\r"
+  - "Roughness = 3\r"
+  - "Cost = 0.00\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Type Image = <None>\r"
+  - "Thermal Resistance (R) = 1.1463 (m\xB2\xB7K)/W\r"
+  - "Absorptance = 0.7\r"
+  - "Heat Transfer Coefficient (U) = 0.8723 W/(m\xB2\xB7K)\r"
+  - "Coarse Scale Fill Pattern = Diagonal cross-hatch\r"
+  - "Thermal Mass = 28.78 kJ/K\r"
+  - "Structure = Unexposed parameter.\r"
+  - 
+--- !u!1 &4795969144180210831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4356703352801442081}
+  - component: {fileID: 1445301520057054077}
+  - component: {fileID: 2718354500557068686}
+  - component: {fileID: 8370005747958997561}
+  - component: {fileID: 3980673621639995056}
+  m_Layer: 0
+  m_Name: Basic Wall Interior - 79mm Partition (1-hr) [350467]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4356703352801442081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795969144180210831}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.2830944, y: 1.5, z: -0.8719293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1445301520057054077
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795969144180210831}
+  m_Mesh: {fileID: 4467034672495072577, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &2718354500557068686
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795969144180210831}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8370005747958997561
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795969144180210831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4467034672495072577, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &3980673621639995056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795969144180210831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350467\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = Interior - 79mm Partition (1-hr)\r"
+  - "Document = PBR_Walls\r"
+  - "Image = <None>\r"
+  - "Design Option = -1\r"
+  - "Phase Created = New Construction\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Related to Mass = False\r"
+  - "Category = Walls\r"
+  - "Length = 13200\r"
+  - "Family = Basic Wall\r"
+  - "Enable Analytical Model = False\r"
+  - "Family and Type = Basic Wall: Interior - 79mm Partition (1-hr)\r"
+  - "Unconnected Height = 3000\r"
+  - "Room Bounding = True\r"
+  - "Type Id = 402\r"
+  - "Area = 37 m\xB2\r"
+  - "Base Offset = 0\r"
+  - "Cross-Section = Vertical\r"
+  - "Base Extension Distance = 0\r"
+  - "Top Offset = 0\r"
+  - "Base Constraint = Level 1\r"
+  - "Structural = False\r"
+  - "Volume = 2.93 m\xB3\r"
+  - "Base is Attached = False\r"
+  - "Type = Interior - 79mm Partition (1-hr)\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Top Extension Distance = 0\r"
+  - "Phase Demolished = None\r"
+  - "Location Line = Wall Centerline\r"
+  - "Top is Attached = False\r"
+  - "Cost = 0.00\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Function = Interior\r"
+  - "Absorptance = 0.7\r"
+  - "Thermal Resistance (R) = 1.7369 (m\xB2\xB7K)/W\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Wrapping at Ends = None\r"
+  - "Type Image = <None>\r"
+  - "Roughness = 3\r"
+  - "Thermal Mass = 3.18 kJ/K\r"
+  - "Heat Transfer Coefficient (U) = 0.5757 W/(m\xB2\xB7K)\r"
+  - "Width = 79\r"
+  - "Structural Material = Metal Stud Layer\r"
+  - 
+--- !u!1 &5643442631245959924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4451436922053934035}
+  - component: {fileID: 6785674428005485528}
+  - component: {fileID: 8549881955145927808}
+  - component: {fileID: 2309200593197783287}
+  - component: {fileID: 3310579708378495640}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [346676]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4451436922053934035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643442631245959924}
+  m_LocalRotation: {x: 0.000000030908623, y: 0.7071068, z: 0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: -1.7216532, y: 1.515, z: 4.7175417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6785674428005485528
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643442631245959924}
+  m_Mesh: {fileID: 4914991576915613650, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &8549881955145927808
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643442631245959924}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2309200593197783287
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643442631245959924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4914991576915613650, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &3310579708378495640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5643442631245959924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346676\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Sill Height = 600\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Category = Windows\r"
+  - "Image = <None>\r"
+  - "Area = 4 m\xB2\r"
+  - "Head Height = 2430\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Type Id = 33083\r"
+  - "Host Id = 346569\r"
+  - "Design Option = -1\r"
+  - "Level = Level 1\r"
+  - "Family = M_Fixed\r"
+  - "Mark = 2\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Phase Demolished = None\r"
+  - "Phase Created = New Construction\r"
+  - "Type Image = <None>\r"
+  - "Window Inset = 19\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Height = 1830\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Type Mark = 18\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Cost = 0.00\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Frame Interior Material = Sash\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Width = 915\r"
+  - "Sash = Sash\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Wall Closure = By host\r"
+  - "Default Sill Height = 305\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Rough Width = 0\r"
+  - "Glass Pane Material = Glass\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Rough Height = 0\r"
+  - 
+--- !u!1 &6087812142975464134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5329224952432749773}
+  - component: {fileID: 8131756266243341062}
+  - component: {fileID: 4339434930545355905}
+  - component: {fileID: 8325716021050675704}
+  - component: {fileID: 5146081323180094289}
+  m_Layer: 0
+  m_Name: KitchenDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5329224952432749773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087812142975464134}
+  m_LocalRotation: {x: -0.52857405, y: -0.46969083, z: -0.46969083, w: 0.52857405}
+  m_LocalPosition: {x: 1.5867825, y: -0.0000000117579475, z: -0.9114293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8131756266243341062
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087812142975464134}
+  m_Mesh: {fileID: 4786783766497427940, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &4339434930545355905
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087812142975464134}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8325716021050675704
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087812142975464134}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4786783766497427940, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &5146081323180094289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6087812142975464134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351357\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Phase Demolished = None\r"
+  - "Head Height = 2032\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Image = <None>\r"
+  - "Category = Doors\r"
+  - "Design Option = -1\r"
+  - "Area = 3 m\xB2\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 4\r"
+  - "Level = Level 1\r"
+  - "Host Id = 350467\r"
+  - "Family = M_Single-Flush\r"
+  - "Type Id = 49492\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Sill Height = 0\r"
+  - "Cost = 0.00\r"
+  - "Trim Projection Int = 25\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Thickness = 51\r"
+  - "OmniClass Title = Doors\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Analytic Construction = Metal\r"
+  - "Rough Height = 0\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Height = 2032\r"
+  - "Type Image = <None>\r"
+  - "Trim Width = 76\r"
+  - "Trim Projection Ext = 25\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Width = 864\r"
+  - "Function = Interior\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Type Mark = 32\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Rough Width = 0\r"
+  - "Wall Closure = By host\r"
+  - "Door Material = Door - Panel\r"
+  - 
+--- !u!1 &6200242511690679526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2816099011206454209}
+  - component: {fileID: 7408578689512649512}
+  - component: {fileID: 540889721940924503}
+  - component: {fileID: 8295260061330944709}
+  - component: {fileID: 3230376743941689068}
+  m_Layer: 0
+  m_Name: Basic Wall Interior - 79mm Partition (1-hr) [350556]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2816099011206454209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200242511690679526}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 2.2424905, y: 1.5, z: 1.8765562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7408578689512649512
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200242511690679526}
+  m_Mesh: {fileID: -69191982778153106, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &540889721940924503
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200242511690679526}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8295260061330944709
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200242511690679526}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -69191982778153106, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &3230376743941689068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200242511690679526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350556\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = Interior - 79mm Partition (1-hr)\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Walls\r"
+  - "Type = Interior - 79mm Partition (1-hr)\r"
+  - "Family and Type = Basic Wall: Interior - 79mm Partition (1-hr)\r"
+  - "Top Extension Distance = 0\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Base Constraint = Level 1\r"
+  - "Type Id = 402\r"
+  - "Base Offset = 0\r"
+  - "Location Line = Wall Centerline\r"
+  - "Area = 14 m\xB2\r"
+  - "Volume = 1.15 m\xB3\r"
+  - "Structural = False\r"
+  - "Room Bounding = True\r"
+  - "Family = Basic Wall\r"
+  - "Length = 5589\r"
+  - "Cross-Section = Vertical\r"
+  - "Base Extension Distance = 0\r"
+  - "Phase Demolished = None\r"
+  - "Base is Attached = False\r"
+  - "Phase Created = New Construction\r"
+  - "Enable Analytical Model = False\r"
+  - "Design Option = -1\r"
+  - "Top is Attached = False\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Related to Mass = False\r"
+  - "Top Offset = 0\r"
+  - "Unconnected Height = 3000\r"
+  - "Image = <None>\r"
+  - "Thermal Resistance (R) = 1.7369 (m\xB2\xB7K)/W\r"
+  - "Heat Transfer Coefficient (U) = 0.5757 W/(m\xB2\xB7K)\r"
+  - "Wrapping at Ends = None\r"
+  - "Absorptance = 0.7\r"
+  - "Width = 79\r"
+  - "Thermal Mass = 3.18 kJ/K\r"
+  - "Roughness = 3\r"
+  - "Structural Material = Metal Stud Layer\r"
+  - "Function = Interior\r"
+  - "Cost = 0.00\r"
+  - "Type Image = <None>\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - 
+--- !u!1 &6328298053384073104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7286086085109754671}
+  - component: {fileID: 8520010845749919702}
+  - component: {fileID: 5526344717901481427}
+  - component: {fileID: 6132623691569117947}
+  - component: {fileID: 6355528275249699361}
+  m_Layer: 0
+  m_Name: LivingRoomDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7286086085109754671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328298053384073104}
+  m_LocalRotation: {x: -0.06769432, y: 0.70385903, z: 0.70385903, w: 0.06769432}
+  m_LocalPosition: {x: 0.084922306, y: 0.00000011920929, z: 2.045888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8520010845749919702
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328298053384073104}
+  m_Mesh: {fileID: 605193327410901712, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &5526344717901481427
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328298053384073104}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6132623691569117947
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328298053384073104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 605193327410901712, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &6355528275249699361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6328298053384073104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351342\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = True\r"
+  - "FlippedY = True\r"
+  - "Category = Doors\r"
+  - "Design Option = -1\r"
+  - "Level = Level 1\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Image = <None>\r"
+  - "Sill Height = 0\r"
+  - "Mark = 3\r"
+  - "Host Id = 350645\r"
+  - "Area = 3 m\xB2\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Family = M_Single-Flush\r"
+  - "Phase Created = New Construction\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Head Height = 2032\r"
+  - "Type Id = 49492\r"
+  - "Phase Demolished = None\r"
+  - "Rough Height = 0\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Door Material = Door - Panel\r"
+  - "OmniClass Title = Doors\r"
+  - "Thickness = 51\r"
+  - "Wall Closure = By host\r"
+  - "Analytic Construction = Metal\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Rough Width = 0\r"
+  - "Function = Interior\r"
+  - "Trim Projection Ext = 25\r"
+  - "Type Image = <None>\r"
+  - "Trim Width = 76\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Cost = 0.00\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Type Mark = 32\r"
+  - "Width = 864\r"
+  - "Trim Projection Int = 25\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Height = 2032\r"
+  - 
+--- !u!1 &6489291215526220566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3295935984046885982}
+  - component: {fileID: 8238121282338845290}
+  - component: {fileID: 6369022413539214624}
+  - component: {fileID: 2564857641264567793}
+  - component: {fileID: 5183821343260176891}
+  m_Layer: 0
+  m_Name: M_Single-Flush 0864 x 2032mm [351342]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3295935984046885982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489291215526220566}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: 0.124422245, y: 1.054, z: 1.6138879}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8238121282338845290
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489291215526220566}
+  m_Mesh: {fileID: -5591095335728037001, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &6369022413539214624
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489291215526220566}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdcadba65bea1654ab551e0172b177e1, type: 2}
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2564857641264567793
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489291215526220566}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5591095335728037001, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &5183821343260176891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489291215526220566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351342\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = True\r"
+  - "FlippedY = True\r"
+  - "Category = Doors\r"
+  - "Design Option = -1\r"
+  - "Level = Level 1\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Image = <None>\r"
+  - "Sill Height = 0\r"
+  - "Mark = 3\r"
+  - "Host Id = 350645\r"
+  - "Area = 3 m\xB2\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Family = M_Single-Flush\r"
+  - "Phase Created = New Construction\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Head Height = 2032\r"
+  - "Type Id = 49492\r"
+  - "Phase Demolished = None\r"
+  - "Rough Height = 0\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Door Material = Door - Panel\r"
+  - "OmniClass Title = Doors\r"
+  - "Thickness = 51\r"
+  - "Wall Closure = By host\r"
+  - "Analytic Construction = Metal\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Rough Width = 0\r"
+  - "Function = Interior\r"
+  - "Trim Projection Ext = 25\r"
+  - "Type Image = <None>\r"
+  - "Trim Width = 76\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Cost = 0.00\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Type Mark = 32\r"
+  - "Width = 864\r"
+  - "Trim Projection Int = 25\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Height = 2032\r"
+  - 
+--- !u!1 &6530029597315855939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4256361595022215298}
+  - component: {fileID: 6219919749978327071}
+  - component: {fileID: 4039317572614266433}
+  - component: {fileID: 4350972311286055420}
+  - component: {fileID: 3322396354479629010}
+  m_Layer: 0
+  m_Name: Basic Wall Interior - 79mm Partition (1-hr) [350711]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4256361595022215298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530029597315855939}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.8850327, y: 1.5, z: -2.130944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6219919749978327071
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530029597315855939}
+  m_Mesh: {fileID: 5832554028606502426, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &4039317572614266433
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530029597315855939}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4350972311286055420
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530029597315855939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5832554028606502426, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &3322396354479629010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6530029597315855939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350711\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = Interior - 79mm Partition (1-hr)\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Walls\r"
+  - "Base Constraint = Level 1\r"
+  - "Base Offset = 0\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Family and Type = Basic Wall: Interior - 79mm Partition (1-hr)\r"
+  - "Type = Interior - 79mm Partition (1-hr)\r"
+  - "Base Extension Distance = 0\r"
+  - "Phase Created = New Construction\r"
+  - "Location Line = Wall Centerline\r"
+  - "Family = Basic Wall\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Image = <None>\r"
+  - "Length = 2611\r"
+  - "Unconnected Height = 3000\r"
+  - "Type Id = 402\r"
+  - "Volume = 0.46 m\xB3\r"
+  - "Phase Demolished = None\r"
+  - "Structural = False\r"
+  - "Design Option = -1\r"
+  - "Related to Mass = False\r"
+  - "Area = 6 m\xB2\r"
+  - "Room Bounding = True\r"
+  - "Top Offset = 0\r"
+  - "Cross-Section = Vertical\r"
+  - "Enable Analytical Model = False\r"
+  - "Base is Attached = False\r"
+  - "Top Extension Distance = 0\r"
+  - "Top is Attached = False\r"
+  - "Heat Transfer Coefficient (U) = 0.5757 W/(m\xB2\xB7K)\r"
+  - "Thermal Resistance (R) = 1.7369 (m\xB2\xB7K)/W\r"
+  - "Roughness = 3\r"
+  - "Absorptance = 0.7\r"
+  - "Type Image = <None>\r"
+  - "Function = Interior\r"
+  - "Structural Material = Metal Stud Layer\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Thermal Mass = 3.18 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Width = 79\r"
+  - "Wrapping at Ends = None\r"
+  - 
+--- !u!1 &6913827745088439243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3899951547921964645}
+  - component: {fileID: 2507427385280158588}
+  - component: {fileID: 1220375268701551615}
+  - component: {fileID: 5098613810559749573}
+  - component: {fileID: 2112012940784541167}
+  m_Layer: 0
+  m_Name: DiningRoomDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3899951547921964645
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913827745088439243}
+  m_LocalRotation: {x: -0.7070528, y: 0.008733953, z: 0.008733953, w: 0.7070528}
+  m_LocalPosition: {x: 2.2819905, y: -0.00000011920929, z: 2.3693438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2507427385280158588
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913827745088439243}
+  m_Mesh: {fileID: -6487043934264062603, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &1220375268701551615
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913827745088439243}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5098613810559749573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913827745088439243}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6487043934264062603, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &2112012940784541167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6913827745088439243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351326\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Category = Doors\r"
+  - "Host Id = 350556\r"
+  - "Design Option = -1\r"
+  - "Head Height = 2032\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Family = M_Single-Flush\r"
+  - "Level = Level 1\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Area = 3 m\xB2\r"
+  - "Type Id = 49492\r"
+  - "Phase Demolished = None\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Sill Height = 0\r"
+  - "Image = <None>\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 2\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Height = 2032\r"
+  - "Trim Projection Int = 25\r"
+  - "Type Image = <None>\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Function = Interior\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Thickness = 51\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Door Material = Door - Panel\r"
+  - "OmniClass Title = Doors\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Rough Height = 0\r"
+  - "Analytic Construction = Metal\r"
+  - "Trim Projection Ext = 25\r"
+  - "Width = 864\r"
+  - "Cost = 0.00\r"
+  - "Type Mark = 32\r"
+  - "Trim Width = 76\r"
+  - "Rough Width = 0\r"
+  - "Wall Closure = By host\r"
+  - 
+--- !u!1 &7637758658314735522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3935856877761497986}
+  - component: {fileID: 4947599539320323118}
+  - component: {fileID: 1393420743694440423}
+  - component: {fileID: 2922389237788748400}
+  - component: {fileID: 4725377063116056967}
+  m_Layer: 0
+  m_Name: Basic Wall CW 102-50-100p PBR [346568]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3935856877761497986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637758658314735522}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 7.8830943, y: 2.8279057, z: 0.74954146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4947599539320323118
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637758658314735522}
+  m_Mesh: {fileID: 6960607549494694555, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &1393420743694440423
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637758658314735522}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 8e6353c16f53d6a40b19a2d11b440282, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2922389237788748400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637758658314735522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6960607549494694555, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &4725377063116056967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7637758658314735522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346568\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = CW 102-50-100p PBR\r"
+  - "Document = PBR_Walls\r"
+  - "Location Line = Wall Centerline\r"
+  - "Base Constraint = Level 1\r"
+  - "Phase Demolished = None\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Cross-Section = Vertical\r"
+  - "Enable Analytical Model = False\r"
+  - "Type = CW 102-50-100p PBR\r"
+  - "Category = Walls\r"
+  - "Family = Basic Wall\r"
+  - "Structural = False\r"
+  - "Base is Attached = False\r"
+  - "Base Extension Distance = 0\r"
+  - "Length = 8200\r"
+  - "Image = <None>\r"
+  - "Room Bounding = True\r"
+  - "Top Offset = 0\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Area = 35 m\xB2\r"
+  - "Design Option = -1\r"
+  - "Related to Mass = False\r"
+  - "Top is Attached = True\r"
+  - "Phase Created = New Construction\r"
+  - "Type Id = 346880\r"
+  - "Base Offset = 0\r"
+  - "Unconnected Height = 3000\r"
+  - "Top Extension Distance = 0\r"
+  - "Volume = 9.23 m\xB3\r"
+  - "Family and Type = Basic Wall: CW 102-50-100p PBR\r"
+  - "Thermal Mass = 28.78 kJ/K\r"
+  - "Absorptance = 0.7\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Thermal Resistance (R) = 1.1463 (m\xB2\xB7K)/W\r"
+  - "Coarse Scale Fill Pattern = Diagonal cross-hatch\r"
+  - "Heat Transfer Coefficient (U) = 0.8723 W/(m\xB2\xB7K)\r"
+  - "Function = Exterior\r"
+  - "Cost = 0.00\r"
+  - "Structural Material = Concrete Masonry Units\r"
+  - "Roughness = 3\r"
+  - "Wrapping at Ends = None\r"
+  - "Type Image = <None>\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Width = 264\r"
+  - 
+--- !u!1 &7930418256659282883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3644421754555501755}
+  - component: {fileID: 6067280385441695335}
+  - component: {fileID: 3993162430676802244}
+  - component: {fileID: 5581268126559830937}
+  - component: {fileID: 6359898316081637135}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [351160]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3644421754555501755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930418256659282883}
+  m_LocalRotation: {x: -0.50000006, y: 0.49999997, z: 0.49999997, w: 0.50000006}
+  m_LocalPosition: {x: -5.316906, y: 1.515, z: 2.166175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6067280385441695335
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930418256659282883}
+  m_Mesh: {fileID: 2820069800982570372, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &3993162430676802244
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930418256659282883}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5581268126559830937
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930418256659282883}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2820069800982570372, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &6359898316081637135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930418256659282883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351160\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Sill Height = 600\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Head Height = 2430\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Host Id = 346570\r"
+  - "Family = M_Fixed\r"
+  - "Area = 4 m\xB2\r"
+  - "Design Option = -1\r"
+  - "Image = <None>\r"
+  - "Mark = 8\r"
+  - "Phase Created = New Construction\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Phase Demolished = None\r"
+  - "Category = Windows\r"
+  - "Type Id = 33083\r"
+  - "Level = Level 1\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Sash = Sash\r"
+  - "Cost = 0.00\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Default Sill Height = 305\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Wall Closure = By host\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Frame Exterior Material = Sash\r"
+  - "Width = 915\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Window Inset = 19\r"
+  - "Type Image = <None>\r"
+  - "Rough Width = 0\r"
+  - "Rough Height = 0\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "Type Mark = 18\r"
+  - "Frame Interior Material = Sash\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Glass Pane Material = Glass\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Height = 1830\r"
+  - 
+--- !u!1 &8106354101557200245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7442712380122605163}
+  - component: {fileID: 5978029581309795772}
+  - component: {fileID: 2346685740119714885}
+  - component: {fileID: 514887138628454031}
+  - component: {fileID: 2941415567756196632}
+  m_Layer: 0
+  m_Name: Basic Wall Interior - 79mm Partition (1-hr) [350645]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7442712380122605163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106354101557200245}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.124422245, y: 1.5, z: 1.8765562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5978029581309795772
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106354101557200245}
+  m_Mesh: {fileID: -2424274898008643016, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &2346685740119714885
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106354101557200245}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &514887138628454031
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106354101557200245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2424274898008643016, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &2941415567756196632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8106354101557200245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 350645\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = Interior - 79mm Partition (1-hr)\r"
+  - "Document = PBR_Walls\r"
+  - "Design Option = -1\r"
+  - "Image = <None>\r"
+  - "Category = Walls\r"
+  - "Structural = False\r"
+  - "Base is Attached = False\r"
+  - "Top Extension Distance = 0\r"
+  - "Related to Mass = False\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Volume = 1.15 m\xB3\r"
+  - "Family and Type = Basic Wall: Interior - 79mm Partition (1-hr)\r"
+  - "Base Constraint = Level 1\r"
+  - "Family = Basic Wall\r"
+  - "Unconnected Height = 3000\r"
+  - "Phase Created = New Construction\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Room Bounding = True\r"
+  - "Top Offset = 0\r"
+  - "Length = 5589\r"
+  - "Cross-Section = Vertical\r"
+  - "Enable Analytical Model = False\r"
+  - "Phase Demolished = None\r"
+  - "Type Id = 402\r"
+  - "Base Offset = 0\r"
+  - "Top is Attached = False\r"
+  - "Base Extension Distance = 0\r"
+  - "Area = 14 m\xB2\r"
+  - "Location Line = Wall Centerline\r"
+  - "Type = Interior - 79mm Partition (1-hr)\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Absorptance = 0.7\r"
+  - "Heat Transfer Coefficient (U) = 0.5757 W/(m\xB2\xB7K)\r"
+  - "Wrapping at Ends = None\r"
+  - "Roughness = 3\r"
+  - "Structural Material = Metal Stud Layer\r"
+  - "Thermal Resistance (R) = 1.7369 (m\xB2\xB7K)/W\r"
+  - "Width = 79\r"
+  - "Thermal Mass = 3.18 kJ/K\r"
+  - "Cost = 0.00\r"
+  - "Function = Interior\r"
+  - "Type Image = <None>\r"
+  - 
+--- !u!1 &8458849953079743410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4638253937774485275}
+  - component: {fileID: 4831278319611877654}
+  - component: {fileID: 2829370153210229857}
+  - component: {fileID: 5940687146706326246}
+  - component: {fileID: 8961406713789453965}
+  m_Layer: 0
+  m_Name: M_Single-Flush 0864 x 2032mm [351326]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4638253937774485275
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458849953079743410}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 2.2424905, y: 1.054, z: 2.801344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4831278319611877654
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458849953079743410}
+  m_Mesh: {fileID: 8656982869671563693, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &2829370153210229857
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458849953079743410}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdcadba65bea1654ab551e0172b177e1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5940687146706326246
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458849953079743410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8656982869671563693, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &8961406713789453965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8458849953079743410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351326\r"
+  - "Category Name = Doors\r"
+  - "Family Name = M_Single-Flush\r"
+  - "Type Name = 0864 x 2032mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Category = Doors\r"
+  - "Host Id = 350556\r"
+  - "Design Option = -1\r"
+  - "Head Height = 2032\r"
+  - "Volume = 0.11 m\xB3\r"
+  - "Family = M_Single-Flush\r"
+  - "Level = Level 1\r"
+  - "Type = 0864 x 2032mm\r"
+  - "Area = 3 m\xB2\r"
+  - "Type Id = 49492\r"
+  - "Phase Demolished = None\r"
+  - "Family and Type = M_Single-Flush: 0864 x 2032mm\r"
+  - "Sill Height = 0\r"
+  - "Image = <None>\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 2\r"
+  - "Construction Type Id = MDOOR\r"
+  - "Thermal Resistance (R) = 0.2701 (m\xB2\xB7K)/W\r"
+  - "Height = 2032\r"
+  - "Trim Projection Int = 25\r"
+  - "Type Image = <None>\r"
+  - "OmniClass Number = 23.30.10.00\r"
+  - "Function = Interior\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Thickness = 51\r"
+  - "Solar Heat Gain Coefficient = 0\r"
+  - "Visual Light Transmittance = 0\r"
+  - "Door Material = Door - Panel\r"
+  - "OmniClass Title = Doors\r"
+  - "Heat Transfer Coefficient (U) = 3.7021 W/(m\xB2\xB7K)\r"
+  - "Rough Height = 0\r"
+  - "Analytic Construction = Metal\r"
+  - "Trim Projection Ext = 25\r"
+  - "Width = 864\r"
+  - "Cost = 0.00\r"
+  - "Type Mark = 32\r"
+  - "Trim Width = 76\r"
+  - "Rough Width = 0\r"
+  - "Wall Closure = By host\r"
+  - 
+--- !u!1 &8925371055102422737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9193888686652188053}
+  - component: {fileID: 5225747533897496745}
+  - component: {fileID: 271122099578757347}
+  - component: {fileID: 4496963579061361680}
+  - component: {fileID: 7220809121653859326}
+  m_Layer: 0
+  m_Name: M_Fixed 0915 x 1830mm [351105]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &9193888686652188053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925371055102422737}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 7.8830943, y: 1.515, z: 1.9002208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5225747533897496745
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925371055102422737}
+  m_Mesh: {fileID: 4942052307007323834, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &271122099578757347
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925371055102422737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7cd675f87749f2f4981790119d3126b0, type: 2}
+  - {fileID: 2100000, guid: b9ee23aed58643546a34576d92f03e3c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &4496963579061361680
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925371055102422737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4942052307007323834, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &7220809121653859326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8925371055102422737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 351105\r"
+  - "Category Name = Windows\r"
+  - "Family Name = M_Fixed\r"
+  - "Type Name = 0915 x 1830mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Mark = 5\r"
+  - "Family = M_Fixed\r"
+  - "Phase Created = New Construction\r"
+  - "Sill Height = 600\r"
+  - "Design Option = -1\r"
+  - "Family and Type = M_Fixed: 0915 x 1830mm\r"
+  - "Area = 4 m\xB2\r"
+  - "Volume = 0.07 m\xB3\r"
+  - "Level = Level 1\r"
+  - "Image = <None>\r"
+  - "Category = Windows\r"
+  - "Head Height = 2430\r"
+  - "Phase Demolished = None\r"
+  - "Type = 0915 x 1830mm\r"
+  - "Type Id = 33083\r"
+  - "Host Id = 346568\r"
+  - "Rough Width = 0\r"
+  - "Thermal Resistance (R) = 0.2711 (m\xB2\xB7K)/W\r"
+  - "Cost = 0.00\r"
+  - "Construction Type Id = GSP4R\r"
+  - "Frame Interior Material = Sash\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Glass Pane Material = Glass\r"
+  - "Type Mark = 18\r"
+  - "Rough Height = 0\r"
+  - "Solar Heat Gain Coefficient = 0.78\r"
+  - "Wall Closure = By host\r"
+  - "Analytic Construction = 1/8 in Pilkington single glazing\r"
+  - "Height = 1830\r"
+  - "Width = 915\r"
+  - "Heat Transfer Coefficient (U) = 3.6886 W/(m\xB2\xB7K)\r"
+  - "Frame Exterior Material = Sash\r"
+  - "OmniClass Title = Fixed Windows\r"
+  - "OmniClass Number = 23.30.20.17.11\r"
+  - "Sash = Sash\r"
+  - "Window Inset = 19\r"
+  - "Type Image = <None>\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "Default Sill Height = 305\r"
+  - 
+--- !u!1 &9063240006652724795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8598627682452474055}
+  - component: {fileID: 5250853025713841186}
+  - component: {fileID: 8811800009009217772}
+  - component: {fileID: 3123825051943409086}
+  - component: {fileID: 9045391716250032667}
+  m_Layer: 0
+  m_Name: Basic Wall CW 102-50-100p [346570]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8598627682452474055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063240006652724795}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -5.316906, y: 2.8279057, z: 0.48554158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5250853025713841186
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063240006652724795}
+  m_Mesh: {fileID: 3178221904195031899, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &8811800009009217772
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063240006652724795}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 4de5be2356f345b4d96c09e8031626f7, type: 2}
+  - {fileID: 2100000, guid: 8e6353c16f53d6a40b19a2d11b440282, type: 2}
+  - {fileID: 2100000, guid: 3b00fb7fce4cb254c8b8e3915c3a036c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3123825051943409086
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063240006652724795}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3178221904195031899, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &9045391716250032667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063240006652724795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346570\r"
+  - "Category Name = Walls\r"
+  - "Family Name = Basic Wall\r"
+  - "Type Name = CW 102-50-100p\r"
+  - "Document = PBR_Walls\r"
+  - "Phase Created = New Construction\r"
+  - "Type Id = 408\r"
+  - "Base Constraint = Level 1\r"
+  - "Unconnected Height = 3000\r"
+  - "Related to Mass = False\r"
+  - "Cross-Section = Vertical\r"
+  - "Phase Demolished = None\r"
+  - "Enable Analytical Model = False\r"
+  - "Room Bounding = True\r"
+  - "Category = Walls\r"
+  - "Base Extension Distance = 0\r"
+  - "Family = Basic Wall\r"
+  - "Top Constraint = Up to level: Level 2\r"
+  - "Structural = False\r"
+  - "Area = 35 m\xB2\r"
+  - "Top is Attached = True\r"
+  - "Base is Attached = False\r"
+  - "Length = 8200\r"
+  - "Image = <None>\r"
+  - "Family and Type = Basic Wall: CW 102-50-100p\r"
+  - "Volume = 9.24 m\xB3\r"
+  - "Base Offset = 0\r"
+  - "Location Line = Wall Centerline\r"
+  - "Top Extension Distance = 0\r"
+  - "Top Offset = 0\r"
+  - "Type = CW 102-50-100p\r"
+  - "Structural Usage = Non-bearing\r"
+  - "Design Option = -1\r"
+  - "Heat Transfer Coefficient (U) = 0.8723 W/(m\xB2\xB7K)\r"
+  - "Thermal Mass = 28.78 kJ/K\r"
+  - "Structural Material = Concrete Masonry Units\r"
+  - "Roughness = 3\r"
+  - "Wrapping at Inserts = Do not wrap\r"
+  - "Coarse Scale Fill Pattern = Diagonal cross-hatch\r"
+  - "Wrapping at Ends = None\r"
+  - "Function = Exterior\r"
+  - "Thermal Resistance (R) = 1.1463 (m\xB2\xB7K)/W\r"
+  - "Absorptance = 0.7\r"
+  - "Structure = Unexposed parameter.\r"
+  - "Width = 264\r"
+  - "Cost = 0.00\r"
+  - "Type Image = <None>\r"
+  - 

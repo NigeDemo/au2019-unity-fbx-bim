@@ -27,11 +27,18 @@ public class FBXCustomProperties : AssetPostprocessor
             DisableCamera(c.gameObject);
     }
 
+    /// <summary>
+    /// Traverses the imported 3D model and sets the parent and any child objects to static
+    /// </summary>
+    /// <param name="g"></param>
     void MakeStatic(GameObject g)
     {
         g.isStatic = true;
-        foreach (Transform c in g.transform)
-            MakeStatic(g);
+        foreach (Transform child in g.transform.GetComponentsInChildren<Transform>())
+        {
+            child.gameObject.isStatic = true;
+        }
+            
     }
 
     void OnPostprocessGameObjectWithUserProperties(GameObject go, string[] names, object[] values)

@@ -1,0 +1,2064 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &15661820220731791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 56597796993401366}
+  - component: {fileID: 4464363856726803454}
+  m_Layer: 0
+  m_Name: Spot Light (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &56597796993401366
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15661820220731791}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3465684191943618893}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &4464363856726803454
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15661820220731791}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &1376146285793372676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6909397670809654283}
+  - component: {fileID: 3398309375235983476}
+  m_Layer: 0
+  m_Name: Spot Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6909397670809654283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376146285793372676}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7722842354301011969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &3398309375235983476
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376146285793372676}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &1665944123909199093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 892458706309172079}
+  - component: {fileID: 5318026328161593476}
+  - component: {fileID: 5292605673855937195}
+  - component: {fileID: 300216283264515408}
+  - component: {fileID: 788987956596759809}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [354000]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &892458706309172079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665944123909199093}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.07054582, y: 2.7, z: -2.0504584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7138314222530122246}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &5318026328161593476
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665944123909199093}
+  m_Mesh: {fileID: -3137847197906371576, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &5292605673855937195
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665944123909199093}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &300216283264515408
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665944123909199093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3137847197906371576, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &788987956596759809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665944123909199093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 354000\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Lighting Fixtures\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Area = 40 m\xB2\r"
+  - "Design Option = -1\r"
+  - "Phase Demolished = None\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Level = Level 1\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Phase Created = New Construction\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Host Id = 351456\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Mark = 4\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Image = <None>\r"
+  - "Type Id = 352292\r"
+  - "Cost = 0.00\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Depth = 200\r"
+  - "Wattage Comments = 60\r"
+  - "Illuminance = 259 lx\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Keynote = V\r"
+  - "Lamp = A-19\r"
+  - "Diameter = 150\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Apparent Load = 0 VA\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Default Elevation = 0\r"
+  - "Wattage = 60 W\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Type Image = <None>\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - 
+--- !u!1 &1770244456497743986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3585169213870471107}
+  - component: {fileID: 4410474502531767421}
+  m_Layer: 0
+  m_Name: Spot Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3585169213870471107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770244456497743986}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7079338736962312873}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &4410474502531767421
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770244456497743986}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &2429497706735050522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1979257505382003778}
+  - component: {fileID: 8396745990898582328}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1979257505382003778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2429497706735050522}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4210333226850684515}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &8396745990898582328
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2429497706735050522}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &2589671134134529350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7079338736962312873}
+  - component: {fileID: 7635837689535397602}
+  - component: {fileID: 2773226076872742486}
+  - component: {fileID: 7197446221000630056}
+  - component: {fileID: 3278405447633525091}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [352332]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7079338736962312873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2589671134134529350}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.229773, y: 2.7, z: 0.61915284}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3585169213870471107}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7635837689535397602
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2589671134134529350}
+  m_Mesh: {fileID: 3095755284042754557, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &2773226076872742486
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2589671134134529350}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7197446221000630056
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2589671134134529350}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3095755284042754557, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &3278405447633525091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2589671134134529350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 352332\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Lighting Fixtures\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Level = Level 1\r"
+  - "Type Id = 352292\r"
+  - "Phase Demolished = None\r"
+  - "Mark = 2\r"
+  - "Design Option = -1\r"
+  - "Host Id = 351456\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Image = <None>\r"
+  - "Phase Created = New Construction\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Area = 40 m\xB2\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Apparent Load = 0 VA\r"
+  - "Wattage = 60 W\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Cost = 0.00\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Wattage Comments = 60\r"
+  - "Keynote = V\r"
+  - "Lamp = A-19\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Diameter = 150\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Depth = 200\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Type Image = <None>\r"
+  - "Illuminance = 259 lx\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Default Elevation = 0\r"
+  - 
+--- !u!1 &2664962377525851317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7722842354301011969}
+  - component: {fileID: 3845577509349416599}
+  - component: {fileID: 69800169368907763}
+  - component: {fileID: 8349162126859855542}
+  - component: {fileID: 1780126259511918323}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [352990]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &7722842354301011969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664962377525851317}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.0448787, y: 2.7, z: -2.0504584}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6909397670809654283}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3845577509349416599
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664962377525851317}
+  m_Mesh: {fileID: -9116261957807328200, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &69800169368907763
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664962377525851317}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8349162126859855542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664962377525851317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -9116261957807328200, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &1780126259511918323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2664962377525851317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 352990\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Area = 40 m\xB2\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Category = Lighting Fixtures\r"
+  - "Phase Demolished = None\r"
+  - "Image = <None>\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Host Id = 351456\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Level = Level 1\r"
+  - "Mark = 3\r"
+  - "Design Option = -1\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Phase Created = New Construction\r"
+  - "Type Id = 352292\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Cost = 0.00\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Wattage = 60 W\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Illuminance = 259 lx\r"
+  - "Apparent Load = 0 VA\r"
+  - "Wattage Comments = 60\r"
+  - "Keynote = V\r"
+  - "Lamp = A-19\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Depth = 200\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Diameter = 150\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Default Elevation = 0\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Type Image = <None>\r"
+  - 
+--- !u!1 &4217282207841525432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6108672390556644566}
+  - component: {fileID: 8278795438234494841}
+  - component: {fileID: 62853137175486063}
+  - component: {fileID: 7801682047130039155}
+  - component: {fileID: 8732331472728933567}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [355568]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6108672390556644566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217282207841525432}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.4819906, y: 2.7, z: 0.6675707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2482498588607632663}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8278795438234494841
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217282207841525432}
+  m_Mesh: {fileID: 5558160598237367650, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &62853137175486063
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217282207841525432}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7801682047130039155
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217282207841525432}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5558160598237367650, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &8732331472728933567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217282207841525432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 355568\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Lighting Fixtures\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Mark = 7\r"
+  - "Phase Created = New Construction\r"
+  - "Image = <None>\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Type Id = 352292\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Design Option = -1\r"
+  - "Phase Demolished = None\r"
+  - "Area = 40 m\xB2\r"
+  - "Level = Level 1\r"
+  - "Host Id = 351456\r"
+  - "Wattage Comments = 60\r"
+  - "Lamp = A-19\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Depth = 200\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Default Elevation = 0\r"
+  - "Apparent Load = 0 VA\r"
+  - "Keynote = V\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Illuminance = 259 lx\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Cost = 0.00\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Wattage = 60 W\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Diameter = 150\r"
+  - "Type Image = <None>\r"
+  - 
+--- !u!1 &4300660397652556873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3523173304202159859}
+  m_Layer: 0
+  m_Name: SimpleHouseLights 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3523173304202159859
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4300660397652556873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4210333226850684515}
+  - {fileID: 7079338736962312873}
+  - {fileID: 7722842354301011969}
+  - {fileID: 892458706309172079}
+  - {fileID: 3465684191943618893}
+  - {fileID: 6108672390556644566}
+  - {fileID: 336603493812833447}
+  - {fileID: 8865578789909838390}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4427790207608077223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 493705932923195637}
+  - component: {fileID: 857003819863806262}
+  m_Layer: 0
+  m_Name: Spot Light (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &493705932923195637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427790207608077223}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 336603493812833447}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &857003819863806262
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4427790207608077223}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &4721392200875208527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9172911729019287161}
+  - component: {fileID: 7158104951899731125}
+  m_Layer: 0
+  m_Name: Spot Light (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9172911729019287161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721392200875208527}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8865578789909838390}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &7158104951899731125
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721392200875208527}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &4968973226485356165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3465684191943618893}
+  - component: {fileID: 2652546637752355619}
+  - component: {fileID: 7775727556022496849}
+  - component: {fileID: 7650433481984830128}
+  - component: {fileID: 1502172794189096177}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [355558]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3465684191943618893
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968973226485356165}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 6.2029905, y: 2.7, z: 0.6675707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 56597796993401366}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2652546637752355619
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968973226485356165}
+  m_Mesh: {fileID: 1780295779244828795, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &7775727556022496849
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968973226485356165}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7650433481984830128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968973226485356165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1780295779244828795, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &1502172794189096177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4968973226485356165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 355558\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Host Id = 351456\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Category = Lighting Fixtures\r"
+  - "Type Id = 352292\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Level = Level 1\r"
+  - "Area = 40 m\xB2\r"
+  - "Phase Demolished = None\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Phase Created = New Construction\r"
+  - "Mark = 6\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Design Option = -1\r"
+  - "Image = <None>\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Keynote = V\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Cost = 0.00\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Apparent Load = 0 VA\r"
+  - "Illuminance = 259 lx\r"
+  - "Depth = 200\r"
+  - "Wattage Comments = 60\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Diameter = 150\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Type Image = <None>\r"
+  - "Default Elevation = 0\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Lamp = A-19\r"
+  - "Wattage = 60 W\r"
+  - 
+--- !u!1 &5460079129608430274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 336603493812833447}
+  - component: {fileID: 4386797253446427328}
+  - component: {fileID: 1236412450996703032}
+  - component: {fileID: 6539166106281487945}
+  - component: {fileID: 8984699411112502791}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [355754]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &336603493812833447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460079129608430274}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 3.4819906, y: 2.7, z: 3.1675708}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 493705932923195637}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &4386797253446427328
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460079129608430274}
+  m_Mesh: {fileID: -7480028950490213533, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &1236412450996703032
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460079129608430274}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &6539166106281487945
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460079129608430274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7480028950490213533, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &8984699411112502791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5460079129608430274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 355754\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Level = Level 1\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Phase Demolished = None\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Category = Lighting Fixtures\r"
+  - "Host Id = 351456\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Type Id = 352292\r"
+  - "Area = 40 m\xB2\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Design Option = -1\r"
+  - "Mark = 8\r"
+  - "Phase Created = New Construction\r"
+  - "Image = <None>\r"
+  - "Lamp = A-19\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Apparent Load = 0 VA\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Diameter = 150\r"
+  - "Illuminance = 259 lx\r"
+  - "Type Image = <None>\r"
+  - "Default Elevation = 0\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Cost = 0.00\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Keynote = V\r"
+  - "Depth = 200\r"
+  - "Wattage Comments = 60\r"
+  - "Wattage = 60 W\r"
+  - 
+--- !u!1 &5976567964668312710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7138314222530122246}
+  - component: {fileID: 6010719974976202655}
+  m_Layer: 0
+  m_Name: Spot Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7138314222530122246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976567964668312710}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 892458706309172079}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &6010719974976202655
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976567964668312710}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0
+--- !u!1 &5987406973911838428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4210333226850684515}
+  - component: {fileID: 8053314563388227579}
+  - component: {fileID: 273134577921748219}
+  - component: {fileID: 5402083055554825409}
+  - component: {fileID: 1301773618253796604}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [352321]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4210333226850684515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987406973911838428}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 1.1840141, y: 2.7, z: 3.4867148}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1979257505382003778}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8053314563388227579
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987406973911838428}
+  m_Mesh: {fileID: -7614389265754822239, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &273134577921748219
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987406973911838428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5402083055554825409
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987406973911838428}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7614389265754822239, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &1301773618253796604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987406973911838428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 352321\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Phase Created = New Construction\r"
+  - "Area = 40 m\xB2\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Category = Lighting Fixtures\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Level = Level 1\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Mark = 1\r"
+  - "Image = <None>\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Design Option = -1\r"
+  - "Host Id = 351456\r"
+  - "Phase Demolished = None\r"
+  - "Type Id = 352292\r"
+  - "Apparent Load = 0 VA\r"
+  - "Illuminance = 259 lx\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Diameter = 150\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Wattage = 60 W\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Default Elevation = 0\r"
+  - "Keynote = V\r"
+  - "Wattage Comments = 60\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Type Image = <None>\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Cost = 0.00\r"
+  - "Lamp = A-19\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Depth = 200\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Light Source Symbol Length = 3048\r"
+  - 
+--- !u!1 &6851997697787974154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8865578789909838390}
+  - component: {fileID: 3092280376784181841}
+  - component: {fileID: 1769129978806933300}
+  - component: {fileID: 1551092741163408249}
+  - component: {fileID: 7472117222051433498}
+  m_Layer: 0
+  m_Name: Lighting_Fixtures_Downlight_Recessed_Can 150mm_Diameter-60_Watt_Incandescent
+    [356156]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &8865578789909838390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851997697787974154}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 6.2819905, y: 2.7, z: 3.1675708}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 9172911729019287161}
+  m_Father: {fileID: 3523173304202159859}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3092280376784181841
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851997697787974154}
+  m_Mesh: {fileID: 7563230205451266429, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!23 &1769129978806933300
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851997697787974154}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3b4c2da343098e144973ef05c068d166, type: 2}
+  - {fileID: 2100000, guid: ff7b68285f8d89542807e562d45976b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1551092741163408249
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851997697787974154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7563230205451266429, guid: 3dbac65ed73baea468f9f2e39f53aeda, type: 3}
+--- !u!114 &7472117222051433498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6851997697787974154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 356156\r"
+  - "Category Name = Lighting Fixtures\r"
+  - "Family Name = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Type Name = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Document = PBR_Walls\r"
+  - "Category = Lighting Fixtures\r"
+  - "Moves With Nearby Elements = False\r"
+  - "Level = Level 1\r"
+  - "Area = 40 m\xB2\r"
+  - "Volume = 31.78 m\xB3\r"
+  - "Design Option = -1\r"
+  - "Coefficient of Utilization = 0\r"
+  - "Type Id = 352292\r"
+  - "Phase Demolished = None\r"
+  - "Type = 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Image = <None>\r"
+  - "Calculate Coefficient of Utilization = False\r"
+  - "Phase Created = New Construction\r"
+  - "Family = Lighting_Fixtures_Downlight_Recessed_Can\r"
+  - "Host Id = 351456\r"
+  - "Family and Type = Lighting_Fixtures_Downlight_Recessed_Can: 150mm_Diameter-60_Watt_Incandescent\r"
+  - "Mark = 9\r"
+  - "Wattage Comments = 60\r"
+  - "Illuminance = 259 lx\r"
+  - "Luminous Flux = 720 lm\r"
+  - "Luminous Intensity = 2407 cd\r"
+  - "Spot Field Angle = 90.00\xB0\r"
+  - "Type Image = <None>\r"
+  - "Keynote = V\r"
+  - "Total Light Loss Factor = 1\r"
+  - "Default Elevation = 0\r"
+  - "Light Source Symbol Length = 3048\r"
+  - "Light Source Definition (family) = Point+Spot\r"
+  - "Initial Color Temperature = 2800 K\r"
+  - "Diffuser = Steel, Paint Finish, Dark Gray, Matte\r"
+  - "Cost = 0.00\r"
+  - "Depth = 200\r"
+  - "Lamp = A-19\r"
+  - "Efficacy = 12 lm/W\r"
+  - "Wattage = 60 W\r"
+  - "Spot Beam Angle = 30.00\xB0\r"
+  - "Apparent Load = 0 VA\r"
+  - "Tilt Angle = 90.00\xB0\r"
+  - "Shade = Glass, White, High Luminance\r"
+  - "Dimming Lamp Color Temperature Shift = <None>\r"
+  - "Diameter = 150\r"
+  - 
+--- !u!1 &8706151067444878687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2482498588607632663}
+  - component: {fileID: 3050884382153740638}
+  m_Layer: 0
+  m_Name: Spot Light (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2482498588607632663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706151067444878687}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6108672390556644566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+--- !u!108 &3050884382153740638
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8706151067444878687}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1.25
+  m_Range: 10
+  m_SpotAngle: 150
+  m_InnerSpotAngle: 1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 10
+  m_ShadowAngle: 0

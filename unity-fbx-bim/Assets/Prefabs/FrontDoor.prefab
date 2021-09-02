@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &421833179193530244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1049751743992007998}
+  m_Layer: 0
+  m_Name: FrontDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1049751743992007998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421833179193530244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6393484544535072327}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6973121462167065333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6393484544535072327}
+  - component: {fileID: 4286900386916598664}
+  - component: {fileID: 893919983113805491}
+  - component: {fileID: 7058519638026052832}
+  - component: {fileID: 256084364862564595}
+  m_Layer: 0
+  m_Name: FrontDoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &6393484544535072327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973121462167065333}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 1.7360945, y: 0.058500037, z: 4.735542}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1049751743992007998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 180}
+--- !u!33 &4286900386916598664
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973121462167065333}
+  m_Mesh: {fileID: 3124824642569258097, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!23 &893919983113805491
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973121462167065333}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: abe5930b906ad324ca6dfe5760bc6ecf, type: 2}
+  - {fileID: 2100000, guid: 74c080ee8e221594f95222d42dedf7d7, type: 2}
+  - {fileID: 2100000, guid: 08b7cc19a753e5747be583e5a8646952, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &7058519638026052832
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973121462167065333}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3124824642569258097, guid: 9e6aff781b93ede4fb2ca5380dbfe728, type: 3}
+--- !u!114 &256084364862564595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6973121462167065333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6298c785c942cf41ab53715eaca9bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - "id = 346712\r"
+  - "Category Name = Doors\r"
+  - "Family Name = Doors_ExtSgl_2\r"
+  - "Type Name = 1010x2110mm\r"
+  - "Document = PBR_Walls\r"
+  - "FlippedX = False\r"
+  - "FlippedY = False\r"
+  - "Design Option = -1\r"
+  - "Type Id = 349869\r"
+  - "Volume = 0.10 m\xB3\r"
+  - "Type = 1010x2110mm\r"
+  - "Phase Demolished = None\r"
+  - "Image = <None>\r"
+  - "Category = Doors\r"
+  - "Level = Level 1\r"
+  - "Phase Created = New Construction\r"
+  - "Family and Type = Doors_ExtSgl_2: 1010x2110mm\r"
+  - "Family = Doors_ExtSgl_2\r"
+  - "Sill Height = 0\r"
+  - "Head Height = 2110\r"
+  - "Mark = 1\r"
+  - "Area = 3 m\xB2\r"
+  - "Host Id = 346569\r"
+  - "Construction Type Id = SGL\r"
+  - "Cavity Closer Offset from Ext = 103\r"
+  - "Vis - Cavity Closers = True\r"
+  - "Door Panel Width = 907\r"
+  - "Glazing Thickness = 24\r"
+  - "Handle X Distance = 75\r"
+  - "Type Comments = External Single\r"
+  - "Stile Bottom Rail = 175\r"
+  - "Cavity Closer Width = 50\r"
+  - "Type Image = <None>\r"
+  - "Cill Projection = 30\r"
+  - "Structural Tolerance = 7\r"
+  - "Material Glass = Door - Glazing\r"
+  - "Tolerance = 3\r"
+  - "Wall Closure = By host\r"
+  - "Thermal Resistance (R) = 0.1798 (m\xB2\xB7K)/W\r"
+  - "Vis - Ironmongery = True\r"
+  - "Stile Hanging = 125\r"
+  - "Cill Extension = 25\r"
+  - "Visual Light Transmittance = 0.9\r"
+  - "FrameOffset - External = 25\r"
+  - "Function = Exterior\r"
+  - "Door Panel Thickness = 44\r"
+  - "Height = 2110\r"
+  - "Keynote = L20\r"
+  - "Cill Thickness = 55\r"
+  - "Thickness = 44\r"
+  - "Stile Top of Lock rail = 1000\r"
+  - "FrameDepth = 89\r"
+  - "Undercut = 4\r"
+  - "Wrap Layers (Ext) from Ext = 103\r"
+  - "Width = 1010\r"
+  - "Solar Heat Gain Coefficient = 0.86\r"
+  - "FrameWidth = 42\r"
+  - "Rough Width = 1010\r"
+  - "Stile Top Rail = 150\r"
+  - "O/A Frame Width = 64\r"
+  - "Cavity Closer Depth = 85\r"
+  - "Material Ironmongery = Door - Handle\r"
+  - "Heat Transfer Coefficient (U) = 5.5617 W/(m\xB2\xB7K)\r"
+  - "Stile Lock Rail = 175\r"
+  - "Door Panel Height = 2000\r"
+  - "Type Mark = 41\r"
+  - "Rough Height = 2110\r"
+  - "Material Door = Door - Panel\r"
+  - "Cost = 0.00\r"
+  - "Handle Z Distance = 1000\r"
+  - "Wrap Layers (Int) from Ext = 178\r"
+  - "Operation = SingleSwingRight\r"
+  - "Material Frame = Door - Frame/Mullion\r"
+  - "Analytic Construction = Large single-glazed windows\r"
+  - "Stile Muntin Rail = 125\r"
+  - "Define Thermal Properties by = Schematic Type\r"
+  - "Stile Shutting = 125\r"
+  - 
