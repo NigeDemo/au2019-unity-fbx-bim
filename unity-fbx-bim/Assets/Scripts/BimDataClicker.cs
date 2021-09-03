@@ -19,6 +19,9 @@ public class BimDataClicker : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI objectName;
 
+    [SerializeField]
+    private TextMeshProUGUI objectProps;
+
     void Start()
     {
         _camera = GetComponent<Camera>();
@@ -26,8 +29,8 @@ public class BimDataClicker : MonoBehaviour
 
     void Update()
     {
-        // Check if the left mouse button is down without Ctrl or Alt.
-        if (Input.GetMouseButtonDown(0)) // && !Input.GetKey(KeyCode.LeftAlt) && !Input.GetKey(KeyCode.LeftControl))
+        // Check if the left mouse button is down 
+        if (Input.GetMouseButtonDown(0))
         {
             CheckRayCast();
         }
@@ -44,7 +47,10 @@ public class BimDataClicker : MonoBehaviour
         if (!Physics.Raycast(_camera.ScreenPointToRay(Input.mousePosition), out hit)) // if the raycast from the mouse position hits nothing (Remember an exclamation mark means NOT in coding)
         {
             if (objectName != null)
+            {
                 objectName.text = "Nothing Selected";
+                objectProps.text = "";
+            }
             BimData = NoStrings;
             return;
         }
@@ -60,6 +66,9 @@ public class BimDataClicker : MonoBehaviour
 
         if (bimdata == null) // if there is no BIM data then return ...
         {
+            objectName.text = "Object has no BIM data associated with it";
+            objectProps.text = "";
+
             BimData = NoStrings;
             return;
         }
@@ -80,9 +89,13 @@ public class BimDataClicker : MonoBehaviour
     {
         Debug.Log($"ParseBIMData called with BimData of {bimData.Items.Length} length");
 
+        string props = "";
+
         // Loop through all the BIM properties / data entries 
         for(int i = 0; i < bimData.Items.Length-1; i++)
         {
+            props += bimData.Items[i] + "\n"; // Add all the BIM data together with a '\n' newline in between each entry 
+
             string[] item = bimData.Items[i].Split('=');
             var property = item[0].Trim();
             var val = item[1].Trim();
@@ -94,5 +107,8 @@ public class BimDataClicker : MonoBehaviour
             if (property == "Family and Type")
                 Debug.Log("FOUND FAMILY & TYPE PROPERTY!");
         }
+
+        // Display all the collected BIM data for the currently selected object
+        objectProps.text = props;
     }
 }
